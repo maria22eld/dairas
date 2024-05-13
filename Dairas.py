@@ -47,7 +47,7 @@ state_transition_model = {
         "Neighbors": [{"El Affroun": 11.5}, {"Mouzaia": 7.0}, {"Chiffa": 12.0}, {"Boumedfaa": 31.6}, {"Medea": 39.1}],
         "Willaya": "Blida"
     },
-#here
+
     "Chiffa": {
         "Coordinates": (36.46539908778476, 2.7393049114350028),
         "Neighbors": [{"Ain Romana": 12.0}, {"Mouzaia": 4.6}, {"Oued Alleug": 15.2}, {"Blida": 9.3}, {"Bouarfa": 7.9}, {"Medea": 28.0}],
@@ -122,9 +122,6 @@ state_transition_model = {
         "Willaya" : "Blida"
 
     },
-
-
-
    "Boufarik" :{
         "Coordinates" : (36.58374500919057, 2.9121042790330156),
         "Neighbors": [{"Beni Mered": 10.2 }, {"Soumaa": 7.6}, {"Bouinan": 11.6 }, {"Chebli": 10.3 }, {"Ben Khellil": 6.9 }, {"Guerouaou": 11.7 },{"Birtouta": 10.8 }],
@@ -182,13 +179,13 @@ state_transition_model = {
 
     },
 
-
     "Meftah" :{
         "Coordinates" : (36.622881427422485, 3.223590862872602),
-        "Neighbors": [{"Djebabra": 10.6}, {"Larbaa": 9.8 },{"Dar El Beida": 24.9 },{"Khemis El-Khechna": 10.4}],
+        "Neighbors": [{"Djebabra": 10.6}, {"Larbaa": 9.8 },{"Dar El Beida": 24.9 },{"Khemis El Khechna": 10.4}],
         "Willaya" : "Blida"
 
     },
+
 
 
     "Ouled Selama" :{
@@ -202,10 +199,11 @@ state_transition_model = {
 
     "Djebabra" :{
         "Coordinates" : (36.583231348877376, 3.2666665493422817),
-        "Neighbors": [{"Meftah": 10.6 }, {"Larbaa": 16.2 }, {"Souhane": 17.6 },{"Lakhdaria": 64.1 },{"Khemis El-Khechna": 15.7 }],
+        "Neighbors": [{"Meftah": 10.6 }, {"Larbaa": 16.2 }, {"Souhane": 17.6 },{"Lakhdaria": 64.1 },{"Khemis El Khechna": 15.7 }],
         "Willaya" : "Blida"
 
     },
+
 
     "Souhane" :{
         "Coordinates" : (36.50983509174763, 3.2386198383405964),
@@ -213,7 +211,7 @@ state_transition_model = {
         "Willaya" : "Blida"
 
     },
-    #hbst hna  ebday tamensrasset
+  
 
     "In Salah" :{
         "Coordinates" : (27.210060406284356, 2.4904632612330087),
@@ -231,6 +229,7 @@ state_transition_model = {
         "Willaya" : "Tamanrasset"
 
     },
+
 
 
 
@@ -260,13 +259,15 @@ state_transition_model = {
     },
 
 
-
     "Foggaret Ezzaouia" :{
         "Coordinates" : (27.337004950100958, 3.2375335091589426),
         "Neighbors": [{"In Salah": 47.0 }, {"Idles": 685 }, {"In Amguel": 581 },{"Hassi Massouad": 914 },{"In Amenas": 846}],
         "Willaya" : "Tamanrasset"
 
     },
+
+
+
 
 
 
@@ -278,13 +279,13 @@ state_transition_model = {
     },
 
 
-
     "Tin Zaouatine" :{
         "Coordinates" : (20.017830895267796, 2.9696181635987604),
         "Neighbors": [{"Abalessa": 418 }, {"In Guezzam": 889 }],
         "Willaya" : "Tamanrasset"
 
     },
+
 
 
 
@@ -303,6 +304,7 @@ state_transition_model = {
         "Willaya" : "Tamanrasset"
 
     },
+   
 
     "Tindouf" :{
         "Coordinates" : (27.677991009618154, -8.127715705660009),
@@ -312,7 +314,7 @@ state_transition_model = {
     },
 
 
-
+  
     "Oum El Assel" :{
         "Coordinates" : (28.612939113919552, -6.971936931153814),
         "Neighbors": [{"Tindouf": 174 },{"Reggane": 1338}],
@@ -327,6 +329,7 @@ state_transition_model = {
 
     },
 
+    #here
 
 
     "Kadiria" :{
@@ -3467,7 +3470,7 @@ state_transition_model = {
     
  "Khemis El Khechna": {
     "Coordinates":(36.639053791814256, 3.2968397270671015),
-    "Neighbors": [{"Rouiba": 17.8},{"Dar El Beida": 19.5},{"Meftah": 10.5},{"Larbaa": 27.9},{"Lakhdaria": 39.7},{"Kadiria": 46.5},{"Boudouaou": 21.4}],
+    "Neighbors": [{"Rouiba": 17.8},{"Dar El Beida": 19.5},{"Meftah": 10.5},{"Larbaa": 27.9},{"Lakhdaria": 39.7},{"Kadiria": 46.5},{"Boudouaou": 21.4},{"Djebabra": 15.7 }],
     "Willaya" : "Boumerdes"
 },
 
@@ -3498,14 +3501,14 @@ state_transition_model = {
  
  "In Amenas": {
     "Coordinates": (28.080200802117915, 9.585380775926303),
-    "Neighbors": [{"Debdeb": 224}, {"Bordj Omar Driss": 448},{"Illizi": 244}],
+    "Neighbors": [{"Debdeb": 224}, {"Bordj Omar Driss": 448},{"Illizi": 244},{"Idles": 846 },{"Foggaret Ezzaouia": 846}],
     "Willaya" : "Illizi"
 },
 
 
   "Illizi": {
     "Coordinates": (26.472528951185897, 8.17613868876719),
-    "Neighbors": [{"In Amenas": 244}, {"Bordj Omar Driss": 686}, {"Tamanrasset": 820}, {"Djanet": 407}],
+    "Neighbors": [{"In Amenas": 244}, {"Bordj Omar Driss": 686}, {"Tamanrasset": 820}, {"Djanet": 407},{"Idles": 603 }],
     "Willaya" : "Illizi"
 },
 
@@ -3515,7 +3518,7 @@ state_transition_model = {
 
  "Djanet": {
     "Coordinates": (24.54106246446664, 9.374500187919427),
-    "Neighbors": [{"Illizi": 407}],
+    "Neighbors": [{"Illizi": 407},{"Idles": 470 },{"Tazrouk": 544 }],
     "Willaya" : "Illizi"
 },
  "Tsabit": {
@@ -3544,13 +3547,13 @@ state_transition_model = {
 
  "Reggane": {
     "Coordinates": (26.69026877671192, 0.2419337208956897),
-    "Neighbors": [{"Tindouf": 1339},{"Tazrouk": 954},{"Bordj Badji Mokhtar": 632},{"In Ghar": 188},{"Zaouiet Kounta": 68.8}, {"Aoulef": 101}],
+    "Neighbors": [{"Tindouf": 1339},{"Tazrouk": 954},{"Bordj Badji Mokhtar": 632},{"In Ghar": 188},{"Zaouiet Kounta": 68.8}, {"Aoulef": 101},{"In Amguel": 783},{"Abalessa": 912 },{"Oum El Assel": 1338}],
     "Willaya" : "Adrar"
 },
 
  "Aoulef": {
     "Coordinates": (27.128851160269146, 1.0108174085811945),
-    "Neighbors": [{"In Ghar": 91.4},{"Fenoughil": 213}, {"Zaouiet Kounta": 169},{"Reggane": 101}],
+    "Neighbors": [{"In Ghar": 91.4},{"Fenoughil": 213}, {"Zaouiet Kounta": 169},{"Reggane": 101},{"In Salah": 151.0 }],
     "Willaya" : "Adrar"
 },
 
@@ -3704,7 +3707,7 @@ state_transition_model = {
 
  "Abadla": {
     "Coordinates": (31.029679966967276, -2.753768136285508),
-    "Neighbors": [{"Tabelbala": 287},{"Kerzaz": 239}, {"El Ouata": 175},{"Beni Abbes": 149}, {"Igli": 133},{"Taghit": 135},  {"Meridja": 162},{"Kenadasa": 59.8},{"Mechraa Houari Boumedienne": 11.8},{"Erg Ferradj": 8.8}],
+    "Neighbors": [{"Tabelbala": 287},{"Kerzaz": 239}, {"El Ouata": 175},{"Beni Abbes": 149}, {"Igli": 133},{"Taghit": 135},  {"Meridja": 162},{"Kenadasa": 59.8},{"Mechraa Houari Boumedienne": 11.8},{"Erg Ferradj": 8.8},{"Tindouf": 540 }],
     "Willaya" : "Bechar"
 },
 
@@ -4299,7 +4302,7 @@ state_transition_model = {
     },
     "Ouzera" : {
         "Coordinates":(36.253838426178625, 2.8447570351341223),
-        "Neighbors":[{"Si Mahdjoub": 28.4}, { "Medea":8.9},{"Ouamri":42.1},{"Seghouane":35.8},{"Berrouaghia":17.3},{"El Omaria":31.6},{"Ouled Yaich":45},{"Blida":38.8}],
+        "Neighbors":[{"Si Mahdjoub": 28.4}, { "Medea":8.9},{"Ouamri":42.1},{"Seghouane":35.8},{"Berrouaghia":17.3},{"El Omaria":31.6},{"Ouled Yaich":45},{"Blida":38.8},{"Chrea": 57.2 },{"Hammam Melouane":93.6 }],
         "Wilaya": "Medea"
     },
      "Medea" : {
@@ -4310,7 +4313,7 @@ state_transition_model = {
 
      "El Omaria" : {
         "Coordinates":(36.27185731497328, 3.0244725665995635),
-        "Neighbors":[{"Ouzera": 31.4},{"Berrouaghia": 22.8}, {"Sidi Naamane": 14.1},{"Tablat": 60.3},{"Bougara":56.9}],
+        "Neighbors":[{"Ouzera": 31.4},{"Berrouaghia": 22.8}, {"Sidi Naamane": 14.1},{"Tablat": 60.3},{"Bougara":56.9},{"Hammam Melouane": 31.4 }],
         "Wilaya": "Medea"
     },
      "Sidi Naamane" : {
@@ -4325,7 +4328,7 @@ state_transition_model = {
     },
      "Tablat" : {
         "Coordinates":(36.41511242016637, 3.3103629260842355),
-        "Neighbors":[{"El Omaria":60.1},{"Sidi Naamane":47.6}, {"El Guelb El Kebir":29.4},{"Beni Slimane":33.8},{"El Azizia":26.1},{"Bougara":42.9},{"Larbaa":36.2},{"Lakhdaria": 46.1}],
+        "Neighbors":[{"El Omaria":60.1},{"Sidi Naamane":47.6}, {"El Guelb El Kebir":29.4},{"Beni Slimane":33.8},{"El Azizia":26.1},{"Bougara":42.9},{"Larbaa":36.2},{"Lakhdaria": 46.1},{"Ouled Selama": 40.2 },{{"Souhane": 19.1 }}],
         "Wilaya": "Medea"
     },
      "El Azizia" : {
@@ -4474,7 +4477,7 @@ state_transition_model = {
     #Ouergla = in salah , ilizi , el meniaa , gherdaia , djelfa , ouled djellal, el mghair , tougourt , el oued 
       "Hassi Massouad" :{
        "Coordinates":(31.71461511150553, 6.046260037064519),
-       "Neighbors":[{"El Borma":342},{"Rouissat":85.2},{"Ain Beida":75.3},{"Hassi Ben Abdellah":80.9},{"Taibet":211},{"Zelfana":219},{"El Meniaa":494},{"In Salah":883},{"In Amenas":735}],
+       "Neighbors":[{"El Borma":342},{"Rouissat":85.2},{"Ain Beida":75.3},{"Hassi Ben Abdellah":80.9},{"Taibet":211},{"Zelfana":219},{"El Meniaa":494},{"In Salah":883},{"In Amenas":735},{"Foggaret Ezzaouia": 914 }],
        "Wilaya":"Ouergla"
    },
     "El Borma" :{
@@ -4869,7 +4872,7 @@ state_transition_model = {
 #el meniaa
   "El Meniaa" :{
          "Coordinates":(30.59351020511544, 2.8635460963608854),
-         "Neighbors":[{"Mansoura":200}],
+         "Neighbors":[{"Mansoura":200},{"In Salah": 402}],
          "Wilaya":"El Meniaa"
     },
      "Mansoura" :{
