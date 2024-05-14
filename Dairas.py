@@ -4328,7 +4328,7 @@ state_transition_model = {
     },
      "Tablat" : {
         "Coordinates":(36.41511242016637, 3.3103629260842355),
-        "Neighbors":[{"El Omaria":60.1},{"Sidi Naamane":47.6}, {"El Guelb El Kebir":29.4},{"Beni Slimane":33.8},{"El Azizia":26.1},{"Bougara":42.9},{"Larbaa":36.2},{"Lakhdaria": 46.1},{"Ouled Selama": 40.2 },{{"Souhane": 19.1 }}],
+        "Neighbors":[{"El Omaria":60.1},{"Sidi Naamane":47.6}, {"El Guelb El Kebir":29.4},{"Beni Slimane":33.8},{"El Azizia":26.1},{"Bougara":42.9},{"Larbaa":36.2},{"Lakhdaria": 46.1},{"Ouled Selama": 40.2 },{"Souhane": 19.1 }],
         "Wilaya": "Medea"
     },
      "El Azizia" : {
