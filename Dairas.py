@@ -329,7 +329,6 @@ state_transition_model = {
 
     },
 
-    #here
 
 
     "Kadiria" :{
@@ -349,6 +348,7 @@ state_transition_model = {
 
     },
 
+  
 
 
     "Bouira" :{
@@ -360,10 +360,9 @@ state_transition_model = {
 
 
 
-
     "Ain Bessem" :{
         "Coordinates" : (36.29535889002294, 3.6714681161935463),
-        "Neighbors": [{"Bouira": 24.9 },{"Kadiria": 54.0},{"Souk El Khemis": 12.4 },{"Bir Ghbalou": 10.1},{"Sour El-Ghozlane": 20.6},{"El Hachimia": 20.0}],
+        "Neighbors": [{"Bouira": 24.9 },{"Kadiria": 54.0},{"Souk El Khemis": 12.4 },{"Bir Ghbalou": 10.1},{"Sour El Ghozlane": 20.6},{"El Hachimia": 20.0}],
         "Willaya" : "Bouira"
 
     },
@@ -372,7 +371,7 @@ state_transition_model = {
 
     "Bir Ghbalou" :{
         "Coordinates" : (36.26287288854417, 3.587673838282049),
-        "Neighbors": [{"Sour El-Ghozlane": 20.2 },{"Ain Bessem": 10.1},{"Souk El Khemis": 23.1 },{"El Azizia": 9.1 },{"El Guelb El Kebir": 16.4 }],
+        "Neighbors": [{"Sour El Ghozlane": 20.2 },{"Ain Bessem": 10.1},{"Souk El Khemis": 23.1 },{"El Azizia": 9.1 },{"El Guelb El Kebir": 16.4 }],
         "Willaya" : "Bouira"
 
     },
@@ -382,7 +381,7 @@ state_transition_model = {
 
     "Haizer" :{
         "Coordinates" : (36.398399420041, 3.9989694107043503),
-        "Neighbors": [{"Bouira": 10.0 },{"Bechloul": 18.0 },{"Ouadhia": 53.1 },{"Ouacifs": 53.5 }],
+        "Neighbors": [{"Bouira": 10.0 },{"Bechloul": 18.0 },{"Ouadhia": 53.1 },{"Ouacifs": 53.5 },{"El Hachimia": 32.5 }],
         "Willaya" : "Bouira"
 
     },
@@ -392,7 +391,7 @@ state_transition_model = {
 
     "Bechloul" :{
         "Coordinates" : (36.31249399031412, 4.074893851760491),
-        "Neighbors": [{"Haizer": 18.0 },{"M'Chedallah": 22.2 },{"Bouira": 19.5 },{"Bordj Okhriss": 39.7 },{"El Hachimia": 33.8 },{"Ouacifs": 56.3 },{"Ouadhia": 64.6 },{"Mansoura": 60 }],
+        "Neighbors": [{"Haizer": 18.0 },{"M'Chedallah": 22.2 },{"M'Chedallah": 19.5 },{"Bordj Okhriss": 39.7 },{"El Hachimia": 33.8 },{"Ouacifs": 56.3 },{"Ouadhia": 64.6 },{"Mansoura": 60 }],
         "Willaya" : "Bouira"
 
     },
@@ -402,7 +401,7 @@ state_transition_model = {
 
     "El Hachimia" :{
         "Coordinates" : (36.21885995887722, 3.8140733005609304),
-        "Neighbors": [{"Bouira": 26.1 },{"Ain Bessem": 17.5 },{"Sour El-Ghozlane": 15.7 },{"Bordj Okhriss": 26.7 },{"Bechloul": 33.8 },{"Haizer": 32.5 }],
+        "Neighbors": [{"Bouira": 26.1 },{"Ain Bessem": 17.5 },{"Sour El Ghozlane": 15.7 },{"Bordj Okhriss": 26.7 },{"Bechloul": 33.8 },{"Haizer": 32.5 }],
         "Willaya" : "Bouira"
 
     },
@@ -410,19 +409,19 @@ state_transition_model = {
 
 
 
-    "Sour El-Ghozlane" :{
+
+    "Sour El Ghozlane" :{
         "Coordinates" : (36.14459382326377, 3.6904771088091852),
-        "Neighbors": [{"Bordj Okhriss": 30.3 },{"El Hachimia": 17.8 },{"Ain Bessem": 22.1 },{"Bir Ghbalou": 20.1 },{"El Guelb El Kebir": 35.9 },{"Chellalet El Adhaoura": 60.9 },{"Souagui": 45.7 },{"El Guelb El Kebir": 35.9 },{"Sidi Aissa": 32.2 }],
+        "Neighbors": [{"Bordj Okhriss": 30.3 },{"El Hachimia": 17.8 },{"Ain Bessem": 22.1 },{"Bir Ghbalou": 20.1 },{"Chellalet El Adhaoura": 60.9 },{"Souagui": 45.7 },{"El Guelb El Kebir": 35.9 },{"Sidi Aissa": 32.2 }],
         "Willaya" : "Bouira"
 
     },
-
 
 
 
     "Bordj Okhriss" :{
         "Coordinates" : (36.08334570799294, 3.977260972789044),
-        "Neighbors": [{"Sour El-Ghozlane": 30.1 },{"El Hachimia": 26.7 },{"Bechloul": 39.1 },{"Mansoura": 53.2 },{"Sidi Aissa": 41.4 }],
+        "Neighbors": [{"Sour El Ghozlane": 30.1 },{"El Hachimia": 26.7 },{"Bechloul": 39.1 },{"Mansoura": 53.2 },{"Sidi Aissa": 41.4 }],
         "Willaya" : "Bouira"
 
     },
@@ -436,6 +435,7 @@ state_transition_model = {
         "Willaya" : "Bouira"
 
     },
+
 
     "Ouenza" :{
         "Coordinates" : (35.95048590661305, 8.130555912962752),
@@ -452,6 +452,8 @@ state_transition_model = {
         "Willaya" : "Tebessa"
 
     },
+
+     
 
 
     "El Meridj" :{
@@ -1328,7 +1330,6 @@ state_transition_model = {
         "Willaya" : "Tizi Ouzou"
 
     },
-
 
 
      "Maatkas" :{
